@@ -1,4 +1,4 @@
-import React, { FC, HTMLAttributes } from "react";
+import { FC, HTMLAttributes } from "react";
 import clsx from "clsx";
 
 export const Container: FC<HTMLAttributes<HTMLDivElement>> = ({ className, children, ...rest }) => {
